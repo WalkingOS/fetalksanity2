@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 2em;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  border-bottom: 1px solid blue;
+}
+
+header a.active {
+  border-bottom: 2px solid blue;
+}
